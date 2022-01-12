@@ -16,7 +16,7 @@ jobs:
             id: meta
             uses: docker/metadata-action@v3
             with:
-              images: jyj01097601/test
+              images: docker.io/jyj01097601/test
               tags: |
                 type=ref,event=branch
                 type=ref,event=pr
